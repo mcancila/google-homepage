@@ -8,19 +8,21 @@ body {
 li{
 	list-style-type: none;
 	display: inline-block;
-	line-height: 50px;
+	color: #666;
 }
 
 a {
 	text-decoration: none;
 	padding: 0 5px;
 	vertical-align: middle;
+	color: #666;
 }
 
+ul {
+	padding: 20px;
+}
 
-/*HEADER*/
-
-nav {
+.header {
 	color: #888;
 	margin: 0px 22px 8px 22px;
 	overflow: hidden;
@@ -29,49 +31,57 @@ nav {
 	font-size: 13px
 }
 
-nav ul {
+.toplft {
 	margin: 0;
 	padding: 0;
 }
 
-
-nav ul li img{
+.hdrimg {
 	vertical-align: middle;
-	height: 30px;
-	width: 30px;
+	max-height: 100%;
+	max-width: 100%;
 }
-
-/*HEADER*/
-
-/*~ ~ B O D Y ~ ~*/
 
 .search {
 	position: fixed;
-	top: 50%;
-	left: 50%;
+	top: 40%;
+	bottom: auto;
+	left: 35%;
+	right: 35%;
+	text-align: center;
 }
 
-form {
-	border: solid 1px black
-}	
+input {
+	background: #fff;
+	border: solid 1px #d9d9d9;
+	background: #fff;
+    height: 38px;
+    width: 443px;
+}
 
+button {
+	size: 30px;
+	margin: 11px 4px;
+	padding: 0 16px;
+	min-width: 54px;
+	border-top:		8px solid #f2f2f2;
+	border-left:		8px solid #f2f2f2;
+	border-right:		8px solid #f2f2f2;
+	border-bottom:		8px solid #f2f2f2;
+	background-color:	#f2f2f2;
 
-/*~ ~ B O D Y ~ ~*/
-
-/*FOOTER*/
+}
 
 .footer {
 	position: absolute;
-	top: 75%;
 	height: 60px;
 	background: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
-    line-height: 40px;
- 	min-width: 980px;
 	width: 100%;
-	margin: 0px 0px 0px 0px;
+	right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
 }
-
 
 .lfoot {
 	float: left;
